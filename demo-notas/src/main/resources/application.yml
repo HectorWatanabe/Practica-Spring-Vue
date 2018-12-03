@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    view:
+      prefix: /html/
+      suffix: .html
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_notas?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: 
